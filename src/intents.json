@@ -1,0 +1,173 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "Identify yourself",
+        "Who is this?",
+        "Who am I talking to?",
+        "Who am I speaking to?"
+      ],
+      "responses": [
+        "I am the chatbot for coffee and tea company!",
+        "You are talking with the chatbot for coffee and tea company"
+      ]
+    },
+    {
+      "tag": "ability",
+      "patterns": [
+        "What all can you do?",
+        "What can I get by talking to you?",
+        "What's your job?",
+        "What can I expect from you?"
+      ],
+      "responses": [
+        "I can tell you about prices of tea and coffee and answer queries about payments."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "price_tea",
+      "patterns": [
+        "What is the price of tea?",
+        "What does tea cost?",
+        "What is the cost of tea?",
+        "How much to pay for tea?",
+        "How much does tea cost?",
+        "Please tell the price of tea."
+      ],
+      "responses": [
+        "Tea costs 10Rs"
+      ]
+    },
+    {
+      "tag": "price_coffee",
+      "patterns": [
+        "What is the price of coffee?",
+        "What does coffee cost?",
+        "What is the cost of coffee?",
+        "How much to pay for coffee?",
+        "How much does coffee cost?",
+        "Please tell the price of coffee."
+      ],
+      "responses": [
+        "Coffee costs 15Rs"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 15-20 mins",
+        "Shipping takes 15-20 mins"
+      ]
+    },
+    {
+      "tag": "types_of_tea",
+      "patterns": [
+        "What different types of tea are available in your shop?",
+        "Different types of tea?",
+        "Varieties in tea?",
+        "What are choices available in tea?"
+      ],
+      "responses": [
+        "Black, Green, Oolong, White, and Pu-erh"
+      ]
+    },
+    {
+      "tag": "types_of_coffee",
+      "patterns": [
+        "What different types of coffee are available in your shop?",
+        "Different types of coffee?",
+        "Varieties in coffee?",
+        "What are choices available in coffee?"
+      ],
+      "responses": [
+        "Latte,Cappuccino,Americano,Espresso,Doppio."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "What is the address of your shop?",
+        "Where is your shop situated?",
+        "Tell me the location of your shop.",
+        "Where are you?"
+      ],
+      "responses": [
+        "Fergusson Road"
+      ]
+    },
+    {
+      "tag": "open_hours",
+      "patterns": [
+        "From when to when is the shop open?",
+        "What are the opening hours of the shop?",
+        "When is the shop open?"
+      ],
+      "responses": [
+        "8AM - 11:59PM"
+      ]
+    }
+  ]
+}
